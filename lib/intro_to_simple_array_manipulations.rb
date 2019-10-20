@@ -31,3 +31,6 @@ end
 def using_uniq
   new_array = haircuts.uniq
 end
+def using_flatten
+  flat_array = instruments.flatten
+end
