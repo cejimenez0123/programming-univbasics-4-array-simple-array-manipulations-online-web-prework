@@ -28,9 +28,9 @@ end
 def using_insert(list_of_programming_languages)
 new_array = list_of_programming_languages.insert(another_language)
 end
-def using_uniq
+def using_uniq(haircuts)
   new_array = haircuts.uniq
 end
-def using_flatten
+def using_flatten(instruments)
   flat_array = instruments.flatten
 end
