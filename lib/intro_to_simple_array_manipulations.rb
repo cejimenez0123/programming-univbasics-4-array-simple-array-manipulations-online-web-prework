@@ -22,7 +22,7 @@ end
 def shift_with_args(ice_cream_brands)
 brands_removed =  ice_cream_brands.shift(2)
 end
-def using_concat(all_my_favs)
+def using_concat(my_favorite_things)
   all_my_favs = my_favorite_things.concat(["sports cars", "flatiron school"])
 end
 def using_insert
