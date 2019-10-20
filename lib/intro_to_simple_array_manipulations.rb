@@ -23,10 +23,10 @@ def shift_with_args(ice_cream_brands)
 brands_removed =  ice_cream_brands.shift(2)
 end
 def using_concat(my_favorite_things)
-  all_my_favs = my_favorite_things.concat(["sports cars", "flatiron school"])
+  all_my_favs = my_favorite_things.concat(more_favs)
 end
 def using_insert
-
+new_array = list_of_programming_languages.insert(another_language)
 end
 def using_uniq
 
